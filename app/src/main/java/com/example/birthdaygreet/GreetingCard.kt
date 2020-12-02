@@ -22,7 +22,7 @@ class GreetingCard : AppCompatActivity() {
 
 
 
-        val name = intent.getStringExtra("name")
+        val name = intent.getStringExtra(NAME_EXTRA)
         receiver_msg.text = "Happy Birthday\n$name!"
 
 

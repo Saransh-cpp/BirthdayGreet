@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this, "Entered $name", Toast.LENGTH_LONG).show()
 
         val intent = Intent(this@MainActivity, GreetingCard::class.java)
-        intent.putExtra("name", name)
+        intent.putExtra(GreetingCard.NAME_EXTRA, name)
         startActivity(intent)
         }
     }

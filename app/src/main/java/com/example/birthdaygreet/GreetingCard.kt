@@ -21,13 +21,9 @@ class GreetingCard : AppCompatActivity() {
         val receiver_msg = findViewById<TextView>(R.id.recievedMsg)
 
 
-
         val name = intent.getStringExtra(NAME_EXTRA)
         receiver_msg.text = "Happy Birthday\n$name!"
 
 
     }
-
-    
-
-    }
+}
